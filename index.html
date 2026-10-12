@@ -176,11 +176,11 @@
 <div class="screen show" id="screen1">
   <div class="content">
     <div class="name">HAPPY BIRTHDAY GAATHUU</div>
-    <h1>Can we start?</h1>
+    <h1>GATHUU can we start?</h1>
     <div class="buttons">
       <button class="yes" id="yesBtn1">Yes</button>
     </div>
-    <div class="note" id="note1" style="display:none;">no more "no"s from september 1 😙</div>
+    <div class="note" id="note1" style="display:none;">gathuu..gathhu..and gathuu only</div>
   </div>
 </div>
 
@@ -189,8 +189,6 @@
     <div class="buttons">
       <button class="option" data-target="screenWhy">Why i love you this much?</button>
       <button class="option" data-target="screenLetter">oru letter vaaychaloo?😘</button>
-      <button class="option" data-target="screenKalyanm">nammukk kalyanm kazhichaloooo?😍</button>
-      <button class="option" data-target="screenFuture">enthaa nmlde future plans?</button>
     </div>
   </div>
 </div>
@@ -204,23 +202,8 @@
 
 <div class="screen" id="screenLetter">
   <div class="content">
-    <div class="message">to jahnvi 😂 ente jahnviyeeee enik letter onum ezhtan aryulaaa 😂 ith add cheyyan sthalam kandapo add akiythaaaaaa ....... nnalum jahnvi from day 1 enik ninne jeevnaaa enthoo nee ullapo njan happy ahnn njan ullapo neeyum allee enna life long nmlk happy ayikodeee......enth problem vannlum face akkaaa...enth kittyalum share akkaa... evde poyalum koode vera 😂 ..........nalla life aayrikkummm vitt povalleeee ttooooo enik athrem ishttaaa njn ponnu pole nokkikolaaaaaaa 😭💯</div>
-    <div class="signoff">faithfull ABHISHEK<br>(jahnvide payyan)</div>
-    <button class="backBtn" data-target="screen2">back</button>
-  </div>
-</div>
-
-<div class="screen" id="screenKalyanm">
-  <div class="content">
-    <div class="sticker">ABHISHEK weds JAHNVI</div>
-    <div class="message">pavam nmlde ai pilleralle ivre oke earthilk ethikande😂...srsly jahnvi njn ithrem srs ayi future aloichittillaaa... i wanna liv w you till my last breath.... ente life thanne ninak theran thonnunu.... nmlk oppam jeevikkadeeee nee kollaaammm perfect wiffeyyy😂... ivde ellarkum ninne ishtapedum neeyoru nallakocha.... ella veetkarum oru nalla kochine thanne anweshikkaa 😂😚..AND I LOVE YOU LOVE YOUUUUUUUUU</div>
-    <button class="backBtn" data-target="screen2">back</button>
-  </div>
-</div>
-
-<div class="screen" id="screenFuture">
-  <div class="content">
-    <div class="message">enthutt future plans baby ...nmlk nokka thalakalm ingne potte ipo nml nallom happy alle ath verthe neg aloich kalayndaaa ... nml nthylum give up akum nn thonninilla... njn nallom strong ahnn neeyum ahnn  nna nte vishwwassam alle..😂? and pinne ipo onnude jeevikanum work aakknokke thonnind oru right aal life il vannapo indaya change??!!! ... and onnude enik ishtta ishttaaa ishtadeeeeeeee kalli penne ninne 😂❤️</div>
+    <div class="message">I love you because you make my world more beautiful just by being in it🫂🫂🫂🫂🥹🥹 ariyillernn oralude existence enik ithreyum happiness tharum ennuuu🤍Your smile gives me happiness😁😁😁 your voice gives me peace😭🥹🥹and your love makes me feel complete😫😫😫♥️💗♥️♥️ Even on our hardest days you are my favorite person🫂💗💗only person ♥️♥️my comfort🫂🫂🫂🫂🫂🫂🫂🫂🫂 my happiness😚😚and my forever😌 ❤️🥹💗</div>
+    <div class="signoff">Kashi</div>
     <button class="backBtn" data-target="screen2">back</button>
   </div>
 </div>
@@ -245,7 +228,7 @@
   setInterval(spawnHeart, 300);
   for(let i=0;i<16;i++) setTimeout(spawnHeart, i*150);
 
-  const names = ['Abhishek', 'Jahnvi'];
+  const names = ['Kashi', 'Gathuu'];
   function spawnName(){
     const n = document.createElement('div');
     n.className = 'floatname';
@@ -268,9 +251,7 @@
       screen1: 'radial-gradient(ellipse at top, #6b1626 0%, #3a0d17 70%)',
       screen2: 'radial-gradient(ellipse at top, #7a3b12 0%, #2e1608 70%)',
       screenWhy: 'radial-gradient(ellipse at top, #8c1f3a 0%, #2b0a13 70%)',
-      screenLetter: 'radial-gradient(ellipse at top, #9c6b1f 0%, #2f2408 70%)',
-      screenKalyanm: 'radial-gradient(ellipse at top, #b23a5e 0%, #3a0d24 70%)',
-      screenFuture: 'radial-gradient(ellipse at top, #5c2a63 0%, #200e28 70%)'
+      screenLetter: 'radial-gradient(ellipse at top, #9c6b1f 0%, #2f2408 70%)'
     };
     document.body.style.background = bgThemes[id] || bgThemes.screen1;
   }
